@@ -1,7 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
-    margin: 0;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #wrapper {
@@ -12,7 +14,7 @@ body {
 }
 
 header h1 {
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     margin-bottom: 5px;
 
@@ -21,9 +23,9 @@ header h1 {
 header h2 {
     margin-top: 0px;
     margin-bottom: 30px;
-    text-align: right;
+    text-align: center;
     font-size: 20px;
-    color: darkgray;
+    color: blue;
 
 }
 
@@ -86,7 +88,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: blue;
+    color: darkgray;
 }
 
 .books {
@@ -108,13 +110,15 @@ footer a {
 }
 
 .books figure {
-    margin: 0;
+    margin: 15px;
 }
 
 article figure figcaption {
+    text-align: left;
     margin-top: 1px;
     font-size: 15px;
     font-weight: bold;
+    color: darkblue;
 }
 
 tsble img {
