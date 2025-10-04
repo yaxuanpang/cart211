@@ -19,6 +19,7 @@ header h1 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 5px;
+    color: navy;
 
 }
 
@@ -63,6 +64,10 @@ nav a {
 
 nav a:hover {
     color: aqua;
+}
+
+.nav-selected {
+    color: chartreuse;
 }
 
 section {
@@ -151,6 +156,7 @@ table img {
 
     nav a {
         color: darkmagenta;
+
     }
 
     h1 {
