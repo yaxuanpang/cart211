@@ -1,4 +1,6 @@
+/*the body*/
 body {
+    /*the font*/
     font-family: "Roboto", "sans-serif";
     font-optical-sizing: auto;
     font-weight: 150;
@@ -8,6 +10,7 @@ body {
     margin: 0;
 }
 
+/*the wrapper*/
 #wrapper {
     margin-top: 0px;
     float: right;
@@ -15,23 +18,28 @@ body {
     margin-right: 50px;
 }
 
+/*first header*/
 header h1 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 5px;
     color: navy;
+    /*changed the color*/
 
 }
 
+/*second header*/
 header h2 {
     margin-top: 0px;
     margin-bottom: 30px;
     text-align: center;
     font-size: 20px;
     color: blue;
+    /*changed the color*/
 
 }
 
+/*third header*/
 header h3 {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -46,6 +54,7 @@ header img {
     width: 100%;
 }
 
+/*naviagtion*/
 nav {
     margin-top: 50px;
     margin-left: 50px;
@@ -56,16 +65,22 @@ nav {
 
 }
 
+/*color page in navigation*/
 nav a {
     text-decoration: none;
     color: blueviolet;
+    /*changed the color*/
     font-weight: bold;
 }
 
+/*color of the page when the mouse is hovering over it*/
 nav a:hover {
     color: aqua;
+    /*changed the color*/
 }
 
+/*color of the selected page in navigation*/
+/*I added this to indicate which page the viewer is currently in*/
 .nav-selected {
     color: chartreuse;
 }
@@ -83,8 +98,10 @@ article p:last-child {
 article h3 {
     margin-bottom: 10px;
     color: brown;
+    /*changed the color*/
 }
 
+/*the footer*/
 footer {
     margin-top: 30px;
     min-height: 30px;
@@ -93,11 +110,14 @@ footer {
     font-style: italic;
 }
 
+/*color of the footer*/
 footer a {
     text-decoration: none;
     color: darkgray;
+    /*changed the color*/
 }
 
+/*the books in 3 columns*/
 .books {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -105,6 +125,7 @@ footer a {
     gap: 10px;
 }
 
+/*images of the books*/
 .books img {
     display: block;
     width: 100%;
@@ -120,14 +141,17 @@ footer a {
     margin: 15px;
 }
 
+/*font size, position, weight and color of the title of the books*/
 article figure figcaption {
     text-align: left;
     margin-top: 1px;
     font-size: 15px;
     font-weight: bold;
     color: darkblue;
+    /*changed the color*/
 }
 
+/*size of the images of the books*/
 table img {
     max-width: 100%;
     max-height: 100%;
@@ -147,6 +171,7 @@ table img {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        /*color for the border in navigation*/
         border-bottom: 4px solid #000;
         background: #000;
         z-index: 100;
@@ -154,8 +179,10 @@ table img {
 
     }
 
+    /*the font color in navigation*/
     nav a {
         color: darkmagenta;
+        /*changed the color*/
 
     }
 
@@ -171,11 +198,13 @@ table img {
         float: none;
     }
 
+    /*the footer*/
     footer {
         margin-top: 70px;
         font-size: 10px;
     }
 
+    /*the books in 2 columns*/
     .books {
         grid-template-columns: auto auto;
         gap: 20px;
