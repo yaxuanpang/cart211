@@ -38,16 +38,25 @@
         <header>
             <!--Navigation-->
             <nav>
-                <div class="Logo"><a href="#"><img src="assets/logo.png" alt="Logo" width="110px" height="50px">
-                    </a>
-
-                </div>
+                <div class="Logo"><a href="index.html"><img src="assets/logo.png" alt="Logo" width="110px"
+                            height="50px">
+                    </a></div>
                 <div class="menu1">
-                    <a href="index.html">INDEX</a><br>
-                    <a href="bio.html">STORIES</a><br>
-                    <a href="#" class="nav-selected">ABOUT</a>
+                    <button class="close-menu">&times;</button>
+
+                    <a href="stories1.html" class="menuI">STORIES</a>
+                    <a href="#" class="menuI">SERIES</a>
+                    <a href="index.html" class="menuI_active">ABOUT</a>
 
                 </div>
+
+                <!--hamburger menu button for mobile version-->
+                <div class="hamburger-menu">
+                    <button>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>
+
             </nav>
         </header>
         <section>
@@ -68,63 +77,65 @@
 
                 <div class="books">
                     <figure class="im1">
-                        <img src="assets/america_pageant.jpg" class="im" alt="american pageant" loading="lazy">
-                        <figcaption>america pageant</figcaption>
+                        <a href="stories1.html"><img src="assets/america_pageant.jpg" class="im" alt="american pageant"
+                                loading="lazy"></a>
+                        <div class="hover-text"> america pageant</div>
+                        <!--<figcaption>america pageant</figcaption>-->
                     </figure>
 
                     <figure class="im2">
                         <img src="assets/Chipwich_guy.jpg" class="im" alt="Chipwich guy" loading="lazy">
-                        <figcaption>Chipwich guy</figcaption>
+                        <div class="hover-text"> Chipwich guy</div>
                     </figure>
 
                     <figure class="im3">
                         <img src="assets/end_of_life_patient.jpg" class="im" alt="end of life patient" loading="lazy">
-                        <figcaption>end of life patient</figcaption>
+                        <div class="hover-text"> End of life patient</div>
                     </figure>
 
                     <figure class="im4">
                         <img src="assets/exhausting_to_me.jpg" class="im" alt="exhausting to me" loading="lazy">
-                        <figcaption>exhausting to me</figcaption>
+                        <div class="hover-text"> Exhausting to me</div>
                     </figure>
 
                     <figure class="im5">
                         <img src="assets/fake_sport.jpg" class="im" alt="fake sport" loading="lazy">
-                        <figcaption>fake sport</figcaption>
+                        <div class="hover-text"> Fake sport</div>
                     </figure>
 
                     <figure class="im6">
                         <img src="assets/gettin_married.jpg" class="im" alt="gettin married" loading="lazy">
-                        <figcaption>gettin married</figcaption>
+                        <div class="hover-text"> Getting married</div>
                     </figure>
 
                     <figure class="im7">
                         <img src="assets/homework.jpg" class="im" alt="homework" loading="lazy">
-                        <figcaption>homework</figcaption>
+                        <div class="hover-text"> homework</div>
                     </figure>
 
                     <figure class="im8">
                         <img src="assets/invisibility.jpg" class="im" alt="invisibility" loading="lazy">
-                        <figcaption>invisibility</figcaption>
+                        <div class="hover-text"> invisibility</div>
                     </figure>
 
                     <figure class="im9">
                         <img src="assets/Mardi-Gras.jpg" class="im" alt="Mardi-Gras" loading="lazy">
-                        <figcaption>Mardi-Gras</figcaption>
+                        <div class="hover-text"> Mardi-gras</div>
                     </figure>
 
                     <figure class="im10">
                         <img src="assets/Right_and_wrong.jpg" class="im" alt="Right and wrong" loading="lazy">
-                        <figcaption>Right and wrong</figcaption>
+                        <div class="hover-text"> Right and wrong</div>
                     </figure>
 
                     <figure class="im11">
                         <img src="assets/sketchbook.jpg" class="im" alt="sketchbook" loading="lazy">
-                        <figcaption>sketchbook</figcaption>
+                        <div class="hover-text"> sketchbook</div>
                     </figure>
 
                     <figure class="im12">
                         <img src="assets/the_algorithm.jpg" class="im" alt="the algorithm" loading="lazy">
-                        <figcaption>the algorithm</figcaption>
+                        <div class="hover-text"> the algorithm</div>
                     </figure>
                 </div>
             </article>
@@ -147,6 +158,25 @@
             </small>
         </footer>
     </div>
+    <!--script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
