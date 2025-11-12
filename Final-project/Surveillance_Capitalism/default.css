@@ -6,7 +6,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 180;
     font-style: normal;
-    font-variation-settings: "width" 90px;
+    font-variation-settings: "width" 100px;
     padding: 5px;
     margin-left: 100px;
     color: rgb(0, 255, 60);
@@ -30,7 +30,6 @@ nav {
     display: grid;
     grid-template-columns: 100% 1fr;
 }
-
 
 
 .menu1 {
@@ -79,6 +78,15 @@ nav a:hover {
     color: aqua;
     /*changed the color*/
     cursor: pointer;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    color: cyan;
 }
 
 h1 {
@@ -388,7 +396,7 @@ article figure figcaption {
         display: block;
         position: absolute;
         top: 20px;
-        right: 50px;
+        right: 20px;
         font-size: 2em;
         color: gray;
     }
@@ -409,8 +417,8 @@ article figure figcaption {
     }
 
     button {
-        border-width: 10px;
-        margin-left: 600px;
+        border-width: 0px;
+        margin-left: 0px;
         background-color: black;
         cursor: pointer;
     }
