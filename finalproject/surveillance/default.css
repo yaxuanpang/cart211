@@ -38,10 +38,16 @@ nav {
     justify-content: space-around;
     padding: 5px;
     align-items: center;
+
+
 }
 
 .menu1 a {
     display: block;
+}
+
+.home {
+    color: aqua;
 }
 
 .hamburger-menu {
@@ -71,6 +77,7 @@ nav a {
     color: black;
     /*changed the color*/
     font-weight: bold;
+
 }
 
 /*color of the page when the mouse is hovering over it*/
@@ -377,6 +384,47 @@ article figure figcaption {
 .header-link a:hover {
     text-decoration: underline;
     /* optional hover underline */
+}
+
+
+/* hover dropdown list*/
+/* Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Hidden menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(81, 81, 81);
+    min-width: 120px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 8px 0;
+}
+
+/* Each item */
+.dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background: rgb(100, 100, 100);
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Optional: change link hover style */
+.drop-link:hover {
+    color: aqua;
 }
 
 
