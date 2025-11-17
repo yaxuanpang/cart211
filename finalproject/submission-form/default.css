@@ -1,0 +1,104 @@
+:root {
+    --bg: #f7f9fb;
+    --card: #ffffff;
+    --accent: #1f6feb;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+}
+
+body {
+    margin: 0;
+    background: rgb(15, 15, 15);
+    color: rgb(0, 255, 60);
+}
+
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: black;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 50px rgba(229, 229, 229, 0.326);
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+label {
+    font-size: 13px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(0, 255, 60);
+    border-radius: 8px;
+    font-size: 14px;
+    background: black;
+    color: white;
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+
+button[type="submit"] {
+    background: var(--accent);
+    color: white;
+}
+
+button[type="reset"] {
+    background: #262727;
+    color: #eef6ff;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+/* Overlay messages */
+.overlay {
+    display: none;
+    padding: 60px 20px;
+    min-height: 200px;
+    text-align: center;
+}
+
+.overlay.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainMessage {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+/* 404 */
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
