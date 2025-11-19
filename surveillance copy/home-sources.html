@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Meta Description for SEO-->
+    <meta name="description" content="Surveillance Capitalism">
+
+    <!--Open Graph for Social Sharing-->
+    <meta property="og:title" content="Surveillance Capitalism">
+    <meta property="og:description" content="Surveillance Capitalism">
+
+    <!--Author and Copyright-->
+    <meta name="author" content="Yaxuan Pang">
+    <meta name="copyright" content="copyright Yaxuan, student project, 2025">
+
+    <title>References</title>
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="default.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!--Social Media Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <!--Navigation-->
+            <nav>
+
+                <div class="menu1">
+                    <button class="close-menu">&times;</button>
+
+                    <a href="home.html" class="menuI home">HOME</a>
+                    <a href="web2.html" class="menuI">WHERE</a>
+                    <a href="web3.html" class="menuI_active">TOOLS</a>
+
+                    <div class="dropdown">
+                        <a href="#" class="drop-link menuI">EXAMPLES</a>
+                        <div class="dropdown-content google">
+                            <a href="google.html">Google</a>
+                            <a href="insta.html">Instagram</a>
+                            <a href="tiktok.html">tiktok</a>
+                        </div>
+                    </div>
+
+                    <a href="web5.html" class="menuI_active">LAWSUITS</a>
+
+                </div>
+
+                <!--hamburger menu button for mobile version-->
+                <div class="hamburger-menu">
+                    <button>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>
+
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>References</h1>
+                <h6>(Home page)</h6>
+
+                <div class="ref-link">
+                    <h5><a
+                            href="https://www.britannica.com/topic/surveillance-capitalism">https://www.britannica.com/topic/surveillance-capitalism</a>
+                    </h5>
+                </div>
+
+                <div class="source-font">
+                    <h5><a href="home.html">Back</a></h5>
+                </div>
+
+            </article>
+        </section>
+        <footer>
+            <div class="social">
+                <!--Social Media Icon-->
+                <div class="icons-wrapper">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                    <a href="#" class="fa fa-snapchat-ghost"></a>
+
+                </div>
+            </div>
+            <small>
+                ©This website was created as part of a student project. All content and design are copyright Yaxuan
+                Pang,
+                2025
+            </small>
+        </footer>
+    </div>
+    <!--script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

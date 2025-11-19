@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Meta Description for SEO-->
+    <meta name="description" content="Surveillance Capitalism">
+
+    <!--Open Graph for Social Sharing-->
+    <meta property="og:title" content="Surveillance Capitalism">
+    <meta property="og:description" content="Surveillance Capitalism">
+
+    <!--Author and Copyright-->
+    <meta name="author" content="Yaxuan Pang">
+    <meta name="copyright" content="copyright Yaxuan, student project, 2025">
+
+    <title>Privacy Violation Lawsuits</title>
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="default.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Social Media Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <!--Navigation-->
+            <nav>
+
+                <div class="menu1">
+                    <button class="close-menu">&times;</button>
+
+                    <a href="home.html" class="menuI">HOME</a>
+                    <a href="web2.html" class="menuI">WHERE</a>
+                    <a href="web3.html" class="menuI_active">TOOLS</a>
+                    <div class="dropdown">
+                        <a href="#" class="drop-link menuI_active">EXAMPLES</a>
+                        <div class="dropdown-content">
+                            <a href="google.html">Google</a>
+                            <a href="insta.html">Instagram</a>
+                            <a href="tiktok.html">tiktok</a>
+                        </div>
+                    </div>
+                    <a href="web5.html" class="menuI lawsuit">LAWSUITS</a>
+
+                </div>
+
+                <!--hamburger menu button for mobile version-->
+                <div class="hamburger-menu">
+                    <button>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>
+
+            </nav>
+        </header>
+        <section>
+            <h1>Privacy Violation Lawsuits</h1>
+
+            <div class="books">
+                <figure class="storie-left">
+                    <a href="stories1.html"><img src="assets/america_pageant.jpg" alt="american pageant"
+                            loading="lazy"></a>
+                    <div class="hover-text"> america pageant</div>
+                    <!--<figcaption>america pageant</figcaption>-->
+                </figure>
+                <div class="storie-right">
+                    <div class="header-link">
+
+                        <h2><a href="Facebook.html">Facebook</a></h2>
+
+                        <div class="p-font">
+                            <p>
+                                “I was seventeen. Only child, not a lot of friends. But I had a plan. I was going to
+                                become
+                                an actress, get a role on
+                                All My Children, meet my husband on set– and when that was all over, I’d host a talk
+                                show.
+                                Kelly Ripa did it; I could do
+                                it too.
+                            </p>
+                        </div>
+
+
+                        <h2><a href="Twitter.html">Twitter</a></h2>
+
+                        <div class="p-font">
+                            <p>
+                                And here’s a twist for you. Remember that guidance counselor?
+                                Several years later I ended up
+                                acting alongside his son in a play at Queens College. In one scene I pulled a gun on
+                                him,
+                                and the director was like: ‘We
+                                need more anger. Think about something that makes you angry.’ I was like: ‘Well,
+                                that’s
+                                easy. His father ruined my
+                                senior year. And quite possibly, my entire life.”
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </article>
+        </section>
+        <footer>
+            <div class="social">
+                <!--Social Media Icon-->
+                <div class="icons-wrapper">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                    <a href="#" class="fa fa-snapchat-ghost"></a>
+
+                </div>
+            </div>
+            <small>
+                ©This website was created as part of a student project. All content and design are copyright Yaxuan
+                Pang, 2025
+            </small>
+        </footer>
+    </div>
+    <!--script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
