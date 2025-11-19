@@ -4,7 +4,8 @@ body {
     /*the font*/
     font-family: "Roboto", "sans-serif";
     font-optical-sizing: auto;
-    font-weight: 180;
+    font-weight: 300;
+    font-size: 18px;
     font-style: normal;
     font-variation-settings: "width" 100px;
     padding: 5px;
@@ -25,7 +26,6 @@ body {
 
 nav {
     margin-top: 50px;
-    margin-left: 0px;
     margin-bottom: 80px;
     line-height: 30px;
     display: grid;
@@ -104,6 +104,27 @@ nav a:hover {
     cursor: pointer;
 }
 
+h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+h2 {
+    justify-content: space-around;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    /* margin-top: 35px; */
+    margin-bottom: 35px;
+    padding: 20px;
+    color: white;
+    border: 3px solid rgb(0, 255, 60);
+}
+
 h3 {
     font-weight: 400;
     text-align: center;
@@ -120,25 +141,14 @@ h4 {
     color: rgb(0, 255, 60);
 }
 
-h1 {
-    font-weight: 400;
-    text-align: center;
-    font-size: 35px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    color: white;
-}
-
-h2 {
+h6 {
     justify-content: space-around;
     font-weight: 400;
     text-align: center;
     font-size: 25px;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-bottom: 35px;
-    padding: 15px;
     color: white;
-    border: 3px solid rgb(0, 255, 60);
 }
 
 .menuI {
@@ -383,7 +393,7 @@ article figure figcaption {
 
 .storie-right p {
     text-align: left;
-    color: white;
+    color: rgb(0, 255, 60);
 }
 
 .header-link {
@@ -406,6 +416,52 @@ article figure figcaption {
 }
 
 .header-link a:hover {
+    text-decoration: underline;
+    /* optional hover underline */
+}
+
+
+.source-font {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.source-font a {
+    justify-content: space-around;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    color: aqua;
+
+    text-decoration: none;
+    /* removes underline */
+
+}
+
+.source-font a:hover {
+    text-decoration: underline;
+    /* optional hover underline */
+}
+
+.ref-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.ref-link a {
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 255, 60);
+
+    text-decoration: none;
+    /* removes underline */
+
+}
+
+.ref-link a:hover {
     text-decoration: underline;
     /* optional hover underline */
 }
@@ -451,6 +507,12 @@ article figure figcaption {
     color: aqua;
 }
 
+.p-font {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 @media (max-width: 1024px) {
 
