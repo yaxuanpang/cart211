@@ -118,7 +118,6 @@ h2 {
     font-weight: 400;
     text-align: center;
     font-size: 25px;
-    /* margin-top: 35px; */
     margin-bottom: 35px;
     padding: 20px;
     color: white;
@@ -130,11 +129,25 @@ h3 {
     text-align: center;
     font-size: 35px;
     margin-top: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     color: rgb(0, 255, 60);
 }
 
 h4 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(0, 255, 60);
+}
+
+h5 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+h6 {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
@@ -230,7 +243,6 @@ footer a {
 }
 
 
-
 .im {
     width: 100%;
     height: auto;
@@ -284,47 +296,12 @@ footer a {
     grid-row: 9 / 12;
 }
 
-/*
-
-.books img {
-
-    display: block;
-
-    width: 100%;
-
-    height: auto;
-
-}
-
-*/
-
-
-
-/*
-
-.books>div {
-
+.steps-font {
+    font-weight: bold;
     text-align: center;
-
-    padding: 10px;
-
+    font-size: 18px;
+    color: rgb(0, 255, 60);
 }
-
-*/
-
-
-
-/*
-
-. steps figure {
-
-    margin: 15px;
-
-}
-
-*/
-
-/*font size, position, weight and color of the title of the boo*/
 
 article figure figcaption {
     text-align: left;
@@ -556,7 +533,6 @@ button[type="reset"] {
     gap: 10px;
 }
 
-/* Overlay messages */
 .overlay {
     display: none;
     padding: 60px 20px;
@@ -594,36 +570,134 @@ button[type="reset"] {
     display: inline-block;
 }
 
-.click-image {
+.click-image1 {
     width: 200px;
     height: auto;
     cursor: pointer;
 }
 
-.click-text {
+.click-image2 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image3 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image4 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image5 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image6 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image7 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-image8 {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.click-text-left {
     display: none;
     position: absolute;
+    text-align: left;
     top: 0;
     left: 115%;
-    /*right: 115%;*/
-
     background: #ffffff;
     border: 1px solid #ccc;
-    padding: 10px;
-
+    padding: 15px;
     width: 250px;
-    /* <-- your required width */
-
-    max-height: 250px;
-    /* height before scrolling begins */
+    max-height: 350px;
     overflow-y: auto;
-    /* vertical scroll only */
     overflow-x: hidden;
-    /* hide horizontal scroll */
-
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
+.click-text-right {
+    display: none;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    right: 115%;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.click-text-top1 {
+    display: none;
+    position: absolute;
+    text-align: left;
+    right: 0;
+    bottom: 115%;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.click-text-top2 {
+    display: none;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    bottom: 115%;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.web3-font {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    font-variation-settings: "width" 100px;
+    padding: 5px;
+    margin-left: 45px;
+    margin-right: 185px;
+    color: rgb(0, 255, 60);
+}
+
+
 
 @media (max-width: 1024px) {
 
