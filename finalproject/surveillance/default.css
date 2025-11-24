@@ -163,20 +163,6 @@ h6 {
     color: black;
 }
 
-section {
-    margin-bottom: 30px;
-    text-align: justify;
-}
-
-article p:last-child {
-    margin-bottom: 80px;
-}
-
-article h3 {
-    margin-bottom: 10px;
-    color: brown;
-}
-
 footer {
     margin-top: 30px;
     min-height: 30px;
@@ -300,7 +286,7 @@ footer a {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
-    color: rgb(0, 255, 60);
+    color: black;
 }
 
 article figure figcaption {
@@ -628,11 +614,12 @@ button[type="reset"] {
     border: 1px solid #ccc;
     padding: 15px;
     width: 250px;
-    max-height: 350px;
+    max-height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: black;
 }
 
 .click-text-right {
@@ -645,11 +632,12 @@ button[type="reset"] {
     border: 1px solid #ccc;
     padding: 15px;
     width: 250px;
-    max-height: 350px;
+    max-height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: black;
 }
 
 .click-text-top1 {
@@ -662,11 +650,12 @@ button[type="reset"] {
     border: 1px solid #ccc;
     padding: 15px;
     width: 250px;
-    max-height: 350px;
+    max-height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: black;
 }
 
 .click-text-top2 {
@@ -679,11 +668,12 @@ button[type="reset"] {
     border: 1px solid #ccc;
     padding: 15px;
     width: 250px;
-    max-height: 350px;
+    max-height: 250px;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: black;
 }
 
 .web3-font {
@@ -696,8 +686,6 @@ button[type="reset"] {
     margin-right: 185px;
     color: rgb(0, 255, 60);
 }
-
-
 
 @media (max-width: 1024px) {
 
