@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-variation-settings: "width" 100px;
-    padding: 5px;
+    padding: 45px;
     margin-left: 45px;
     margin-right: 45px;
     color: rgb(0, 255, 60);
@@ -289,15 +289,6 @@ footer a {
     color: black;
 }
 
-article figure figcaption {
-    text-align: left;
-    margin-top: 1px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    /*changed the color*/
-}
-
 .social {
     display: flex;
     flex-direction: column;
@@ -311,22 +302,6 @@ article figure figcaption {
     font-size: 1em;
     padding: 5px;
     color: white
-}
-
-.storie-left {
-    margin-top: 30px;
-    grid-column: 1 / 7;
-}
-
-.storie-right {
-    text-align: center;
-    grid-column: 7 / 13;
-    color: deepskyblue;
-}
-
-.storie-right p {
-    text-align: left;
-    color: rgb(0, 255, 60);
 }
 
 .header-link {
@@ -441,10 +416,12 @@ article figure figcaption {
 }
 
 .p-font {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 :root {
@@ -683,8 +660,10 @@ button[type="reset"] {
     font-variation-settings: "width" 100px;
     padding: 5px;
     margin-left: 45px;
-    margin-right: 185px;
+    margin-right: 45px;
+    text-align: justify;
     color: rgb(0, 255, 60);
+    line-height: 1.6;
 }
 
 @media (max-width: 1024px) {
@@ -766,10 +745,9 @@ button[type="reset"] {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        border-bottom: 4px solid #000;
-        background: #000;
+        border-bottom: 4px solid #111010;
+        background: #111010;
         z-index: 100;
-        color: white;
     }
 
     nav a {
@@ -795,19 +773,17 @@ button[type="reset"] {
     }
 
     .steps {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         padding: 10px;
-        grid-auto-flow: row dense;
     }
 
     .steps [class^="im"] {
         grid-column: auto !important;
         grid-row: auto !important;
-        width: 100%;
+        width: 250%;
         height: auto;
         object-fit: cover;
+
     }
 
     .steps img {
@@ -816,6 +792,77 @@ button[type="reset"] {
         object-fit: cover;
     }
 
+    .click-text-left {
+        display: none;
+        position: absolute;
+        text-align: left;
+        top: 0;
+        left: 115%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 120px;
+        max-height: 120px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        color: black;
+    }
+
+    .click-text-right {
+        display: none;
+        position: absolute;
+        text-align: left;
+        top: 0;
+        right: 115%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 120px;
+        max-height: 120px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        color: black;
+    }
+
+    .click-text-top1 {
+        display: none;
+        position: absolute;
+        text-align: left;
+        right: 0;
+        bottom: 115%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 120px;
+        max-height: 120px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        color: black;
+    }
+
+    .click-text-top2 {
+        display: none;
+        position: absolute;
+        text-align: left;
+        left: 0;
+        bottom: 115%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 120px;
+        max-height: 120px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        color: black;
+    }
 
 
 
