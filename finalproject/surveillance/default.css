@@ -506,7 +506,7 @@ button[type="reset"] {
 .overlay.show {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #mainMessage {
@@ -520,7 +520,7 @@ button[type="reset"] {
 .warning {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
     font-size: 26px;
     font-weight: 700;
